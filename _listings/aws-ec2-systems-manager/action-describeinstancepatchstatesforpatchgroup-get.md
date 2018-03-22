@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeInstancePatchStatesForPatchGroup&k=1:
+  /?Action=DescribeInstancePatchStatesForPatchGroup:
     get:
       summary: ' Describe Instance Patch States For Patch Group '
       description: Retrieves the high-level patch state for the instances in the specified
