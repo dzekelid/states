@@ -37,15 +37,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/states/master/_listings/aws-ec2-systems-manager/action-describeinstancepatchstatesforpatchgroup-get.md
-- name: Amazon EC2 Systems Manager API Describe Instance Patch States
-  description: Retrieves the high-level patch state of one or more instances.
+- name: Amazon EC2 Systems Manager API Describe Instance Patch States For Patch Group
+  description: Retrieves the high-level patch state for the instances in the specified
+    patch group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
   humanURL: https://aws.amazon.com/ec2/systems-manager/
   baseURL: http:://{host}//
   tags: States
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/states/master/_listings/aws-ec2-systems-manager/action-describeinstancepatchstates-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/states/master/_listings/aws-ec2-systems-manager/action-describeinstancepatchstatesforpatchgroup-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/ssm/latest/APIReference/Welcome.html
