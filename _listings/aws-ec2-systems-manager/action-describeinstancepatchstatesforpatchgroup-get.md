@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 Systems Manager API
+  title: Amazon EC2 Systems Manager API Describe Instance Patch States For Patch Group
   version: 1.0.0
+  description: Retrieves the high-level patch state for the instances in the specified
+    patch group.
 schemes:
 - http
 produces:
